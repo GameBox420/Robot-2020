@@ -1,0 +1,72 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Auto choices" type="String Chooser" class="edu.wpi.first.smartdashboard.gui.elements.Chooser">
+		<location x="0" y="21"/>
+	</widget>
+	<widget field="drive steer" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="124"/>
+	</widget>
+	<widget field="drive speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="42"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="805" y="-2"/>
+		<width>400</width>
+		<height>312</height>
+		<property name="Camera Choice" value="limelight"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="422" y="2"/>
+		<width>379</width>
+		<height>314</height>
+		<property name="Camera Choice" value=""/>
+	</static-widget>
+	<widget field="Arm Position" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="273"/>
+	</widget>
+	<widget field="limelight_Stream" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="180" y="24"/>
+	</widget>
+	<widget field="Jog Position" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="299" y="275"/>
+	</widget>
+	<widget field="target seen" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="175" y="106"/>
+	</widget>
+	<widget field="AproxDistance" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="2" y="103"/>
+	</widget>
+	<widget field="Manual Drive" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="168"/>
+	</widget>
+	<widget field="Ball in Shwoop" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="147"/>
+	</widget>
+	<widget field="Arm Setpoint" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="148" y="275"/>
+	</widget>
+	<widget field="LimelightY" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="152" y="84"/>
+	</widget>
+	<widget field="LimelightX" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="84"/>
+	</widget>
+	<widget field="Auto Selector" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="63"/>
+	</widget>
+	<widget field="Arm Current" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="294"/>
+	</widget>
+	<widget field="limelight_Interface" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="210" y="3"/>
+	</widget>
+	<widget field="limelight_PipelineName" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="0"/>
+	</widget>
+	<widget field="Shooter Spd" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="161" y="148"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>
